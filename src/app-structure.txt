@@ -1,0 +1,15 @@
+src
+
+app
+-. persons
+| -- persons.component.ts|.html|.css
++ --. persons-form
+| -- persons-form.component.ts|.html|.css
+
+-. shared
+| -- persons.service.ts
+| -- persons.model.ts
+
+I -- app.module.ts
+
+| -- index.html (cdn path for bootstrap & fa icons)
